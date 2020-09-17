@@ -9,9 +9,6 @@ which has the articles on mean-stack technology.
 ## Purpose
 Purpose of this project is to learn mean stack development , understanding the real world application ,understanding the all layer of application also responsive webdesign.
 
-## Demo
-website temporarly live on https://meanblogdemo.herokuapp.com/ 
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
