@@ -1,0 +1,175 @@
+/**
+* Main css
+*/
+
+
+.navbar{
+    padding: 0% 5%;
+}
+
+.container{
+    display: flex;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.container-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.title{
+    font-size: 28px;
+    line-height: 55px;
+    color: #ce4142;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.classification{
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.title:hover{
+    cursor: pointer;
+    // text-shadow: 2px 1px #ce4142;    
+}
+
+.navbar-brand {
+ padding-top: 0rem;
+}
+
+ul{
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    -webkit-padding-start: 0px;
+    padding-inline-start: 0px;
+}
+
+ul li{
+    display: inline;
+    padding: 1rem 0.9rem;
+    font-size: 16px;
+    color:#272532;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+
+ul li:hover{
+   cursor: pointer;
+   background: rgba(0,0,0,0);
+    color: #ce4142;;
+    box-shadow: 1px 1px 1px 1px #ce4142;
+}
+
+
+.searchbar{
+    margin: auto;
+}
+
+.searchbar input{
+    background-color: antiquewhite;
+    padding: 0 25px 0 25px;
+    border-radius: 25px;
+    border: 0px;
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+}
+
+/**
+* Large and extra large  device css
+*/
+@media (min-width: 1399px) { 
+    .navbar{
+        padding: 0% 15%;
+    }
+}
+@media (min-width: 991.98px) { 
+    
+}
+
+/**
+* Medium device css
+*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    .title{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    
+    .navbar-toggler {
+        padding: .25rem .5rem;
+        font-size: 1.0rem;
+        line-height: 1;
+    }
+
+    .classification{
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    
+    ul li{
+        text-align: center;
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;     
+        letter-spacing: 1.2px;
+    }
+     
+    .searchbar input{
+        background-color: antiquewhite;
+        padding: 0 15px 0 15px;
+        width:155px;
+        height: 25px;
+        font-size: 14px;
+    }
+}
+
+/**
+* Small and extra small device css
+*/
+@media (max-width: 767px) {
+    .title{
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .classification{
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    
+    ul li{
+        text-align: center;
+        padding: 0.5rem 0.5rem;
+        font-size: 14px;     
+        letter-spacing: 1.2px;
+    }
+     
+    .searchbar input{
+        background-color: antiquewhite;
+        padding: 0 15px 0 15px;
+        width:155px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .navbar-toggler {
+        padding: 0.15rem 0.5rem;
+        font-size: 1.1rem;
+        line-height: 1;
+    }
+    
+    .navbar-toggler-icon {
+        width: 1.1rem;
+        height: 1.1rem;
+        line-height: 0.8;
+    }
+}
